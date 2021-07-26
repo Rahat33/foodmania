@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Mania</title>
+    <link rel="shortcut icon" href="images/logo-icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/78d3b04831.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- navbar start-->
+        <nav class="navbar navbar-light py-lg-2 shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand logo ps-2" href="#">
+                    <img src="images/logo-icon/logo.png" alt="" width="30" height="30"
+                        class="d-inline-block align-text-top">
+                    <span>foodmania</span>
+                </a>
+
+                <div class="d-flex right-nav">
+                    <div class="mx-lg-3">
+                        <a href="#">EN | <span class="text-black-50">BN</span></a>
+                    </div>
+                    <div class="mx-lg-3">
+                        <a href="#"><i class="fas fa-user-circle"></i><span class="ps-2">LOGIN</span></a>
+                    </div>
+                    <div class="mx-lg-3">
+                        <a href="#"><i class="fas fa-shopping-bag"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+        </nav>
+        <!-- navbar end -->
+
+        <!-- banner start -->
+        <div class="container-fluid banner"
+            style="background-image: url(images/banner/banner01.png); width: 100%; height: 90vh; background-repeat: no-repeat;">
+            <div class="banner-text px-5">
+                <h2>It's the food you love, delivered</h2>
+                <div class="px-2 py-2 mt-5 w-75 shadow-sm d-flex">
+                    <div class="input-group border my-1">
+                        <input type="text" class="form-control py-3 border-light" placeholder="Enter your area"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn " type="button" id="button-addon2"><i
+                                class="fas fa-location-arrow"></i></button>
+                    </div>
+
+                    <div class="btn-group align-items-lg-center ms-3">
+                        <button type="button" class="btn px-5 py-3 me-2">Pickup</button>
+                        <span>Or</span>
+                        <button type="button" class="btn px-5 py-3 ms-2">Delivery</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- banner end -->
+
+        <!-- partner banner start -->
+        <div class="container-fluid ">
+            <div class="container partner-banner">
+                <h1 class="mb-0 pb-0"> Partnars</h1>
+                <h4>You prepare the food, we handle the rest</h4>
+            </div>
+
+            <div class="pb-img">
+                <img src="images/banner/pb-img.png" class="img-fluid" alt="">
+            </div>
+
+            <section>
+                <div class="card p-card">
+                    <div class="card-body pt-4 ps-4">
+                        <h5 class="card-title pb-3">List your restaurant on foodmania</h5>
+                        <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                        <p class="card-text">Would you like thousands of new customers to taste your amazing food? So
+                            would we!</p>
+
+                        <p class="card-text">It's simple: we list your menu online, help you process orders, pick them
+                            up, and deliver them to
+                            hungry pandas - in a heartbeat!</p>
+
+                        <p class="card-text">
+                            Interested? Let's start our partnership today!
+                        </p>
+                        <button type="submit" class="btn float-end">Get Started</button>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+        <!-- partner banner end -->
+
+
+    </header>
+
+
+    <main>
+        <div class="container city-section">
+            <div class="position-relative">
+                <h1 class="mb-0 pb-0">Cities</h1>
+                <h4 class="position-absolute top-50 ps-3"> Find us in these cities and many more!</h4>
+            </div>
+
+        </div>
+
+        <!-- <section>
+            <div class="container-fluid city px-5">
+                <div class="row row-cols-lg-5">
+                    <div class="col">
+                        <div class="card ms-1">
+                            <img src="images/cards/dhaka1.jpg" class="" alt="..." height="270px" width="220px">
+                            <div class="card-img-overlay">
+                                <div class="d-flex position-absolute bottom-0 end-0  align-items-center">
+                                    <h5 class="card-title text-white me-4 px-5 align-text-bottom">Dhaka</h5>
+                                    <button class="btn text-white" type="submit"><i
+                                            class="fas fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card ms-1">
+                            <img src="images/cards/chittagong.jpg" class="" alt="..." height="270px" width="220px">
+                            <div class="card-img-overlay">
+                                <div class="d-flex position-absolute bottom-0 end-0  align-items-center">
+                                    <h5 class="card-title text-white me-4 px-5 align-text-bottom">Chottogram</h5>
+                                    <button class="btn text-white" type="submit"><i
+                                            class="fas fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card ms-1">
+                            <img src="images/cards/sylhet.jpg" class="" alt="..." height="270px" width="220px">
+                            <div class="card-img-overlay">
+                                <div class="d-flex position-absolute bottom-0 end-0  align-items-center">
+                                    <h5 class="card-title text-white me-4 px-5 align-text-bottom">Sylhet</h5>
+                                    <button class="btn text-white" type="submit"><i
+                                            class="fas fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card ms-1">
+                            <img src="images/cards/llauddin-iajee-EaGCNed-iio-unsplash.jpg" class="" alt="..."
+                                height="270px" width="220px">
+                            <div class="card-img-overlay">
+                                <div class="d-flex position-absolute bottom-0 end-0  align-items-center">
+                                    <h5 class="card-title text-white me-4 px-5 align-text-bottom">Barishal</h5>
+                                    <button class="btn text-white" type="submit"><i
+                                            class="fas fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card ms-1">
+                            <img src="images/cards/narayongonj.jpg" class="" alt="..." height="270px" width="220px">
+                            <div class="card-img-overlay">
+                                <div class="d-flex position-absolute bottom-0 end-0  align-items-center">
+                                    <h5 class="card-title text-white me-4 px-5 align-text-bottom">Narayanganj</h5>
+                                    <button class="btn text-white" type="submit"><i
+                                            class="fas fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <div class="container-fluid city-list-bd">
+            <ul class="city-list d-flex flex-row flex-wrap ms-3">
+                <li class="px-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/dhaka1.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Dhaka</span>
+                                    <span class="city-letter">D</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/chittagong.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Chottogram</span>
+                                    <span class="city-letter">C</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/khulna.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Khulna</span>
+                                    <span class="city-letter">K</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/rajshahi.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Rajshahi</span>
+                                    <span class="city-letter">R</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/coxs.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Cox's Bazar</span>
+                                    <span class="city-letter">C</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="px-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/llauddin-iajee-EaGCNed-iio-unsplash.jpg" class="city-img"
+                                    alt="..." height="270px" width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Barishal</span>
+                                    <span class="city-letter">B</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/sylhet.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Sylhet</span>
+                                    <span class="city-letter">S</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/savar.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Savar</span>
+                                    <span class="city-letter">S</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/narayongonj.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Narayangonj</span>
+                                    <span class="city-letter">N</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/dhaka.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Lalbag</span>
+                                    <span class="city-letter">L</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="px-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/dhaka1.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Dhaka</span>
+                                    <span class="city-letter">D</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/chittagong.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Chottogram</span>
+                                    <span class="city-letter">C</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/khulna.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Khulna</span>
+                                    <span class="city-letter">K</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/rajshahi.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Rajshahi</span>
+                                    <span class="city-letter">R</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/coxs.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Cox's Bazar</span>
+                                    <span class="city-letter">C</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="px-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/llauddin-iajee-EaGCNed-iio-unsplash.jpg" class="city-img"
+                                    alt="..." height="270px" width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Barishal</span>
+                                    <span class="city-letter">B</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/sylhet.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Sylhet</span>
+                                    <span class="city-letter">S</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/savar.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Savar</span>
+                                    <span class="city-letter">S</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/narayongonj.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Narayangonj</span>
+                                    <span class="city-letter">N</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/dhaka.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Lalbag</span>
+                                    <span class="city-letter">L</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="px-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/dhaka1.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Dhaka</span>
+                                    <span class="city-letter">D</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/chittagong.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Chottogram</span>
+                                    <span class="city-letter">C</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/khulna.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Khulna</span>
+                                    <span class="city-letter">K</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/rajshahi.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Rajshahi</span>
+                                    <span class="city-letter">R</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/coxs.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Cox's Bazar</span>
+                                    <span class="city-letter">C</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="px-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/llauddin-iajee-EaGCNed-iio-unsplash.jpg" class="city-img"
+                                    alt="..." height="270px" width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Barishal</span>
+                                    <span class="city-letter">B</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/sylhet.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Sylhet</span>
+                                    <span class="city-letter">S</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/savar.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Savar</span>
+                                    <span class="city-letter">S</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/narayongonj.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Narayangonj</span>
+                                    <span class="city-letter">N</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/dhaka.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Lalbag</span>
+                                    <span class="city-letter">L</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="px-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/dhaka1.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Dhaka</span>
+                                    <span class="city-letter">D</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/chittagong.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Chottogram</span>
+                                    <span class="city-letter">C</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/khulna.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Khulna</span>
+                                    <span class="city-letter">K</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/rajshahi.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Rajshahi</span>
+                                    <span class="city-letter">R</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/coxs.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Cox's Bazar</span>
+                                    <span class="city-letter">C</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="px-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/llauddin-iajee-EaGCNed-iio-unsplash.jpg" class="city-img"
+                                    alt="..." height="270px" width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Barishal</span>
+                                    <span class="city-letter">B</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/sylhet.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Sylhet</span>
+                                    <span class="city-letter">S</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/savar.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Savar</span>
+                                    <span class="city-letter">S</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/narayongonj.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Narayangonj</span>
+                                    <span class="city-letter">N</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+                <li class="pe-3">
+                    <figure>
+                        <a href="#" class="city">
+                            <div class="position-relative">
+                                <img src="images/cards/dhaka.jpg" class="city-img" alt="..." height="270px"
+                                    width="220px">
+                                <figcaption class="city-info">
+                                    <span class="city-name">Lalbag</span>
+                                    <span class="city-letter">L</span>
+                                    <span class="city-btn"><button class="btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button></span>
+                                </figcaption>
+                            </div>
+                        </a>
+                    </figure>
+                </li>
+
+
+            </ul>
+        </div>
+
+        <div class="container-fluid app">
+            <div class="container city-section mt-5 pt-5">
+                <div class="position-relative">
+                    <h1 class="mb-0 pb-0">App</h1>
+                    <h4 class="position-absolute top-50 ps-3"> Put us in your pocket</h4>
+                </div>
+            </div>
+            <div class="container-fluid d-flex">
+                <div class="app-text w-50">
+                    <h4>Download the food you love</h4>
+                    <p>It's all at your fingertips -- the restaurants you love. Find the right food to suit your mood,
+                        and make the first bite last. Go ahead, download us.</p>
+
+                    <a href="http://#" target="_blank" rel="noopener noreferrer"> <img
+                            src="images/app/App-store-badge.png" alt=""></a>
+                    <a href="http://#" target="_blank" rel="noopener noreferrer"> <img
+                            src="images/app/google-play-badge.png" alt=""></a>
+                </div>
+                <div class="app-img w-50">
+                    <img src="images/app/home-foodpanda-apps.webp" width="550px" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <!-- Scripting tag -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

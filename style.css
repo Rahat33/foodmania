@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   font-size: 18px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+/* navbar style starts */
+
+.navbar .logo span {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #D10E61;
+}
+
+.right-nav a, span {
+    text-decoration: none;
+    font-size: .7rem;
+    color: #000;
+}
+
+.fa-user-circle, .fa-shopping-bag {
+    font-size: 1.3rem;
+    color: #D10E61;
+    vertical-align: middle;
+}
+
+/* .fa-shopping-bag {
+    color: rgb(16, 114, 81);
+} */
+
+/* navbar style end */
+
+
+/* banner style start */
+
+.banner .banner-text {
+    padding-top: 10%;
+}
+
+.banner-text h2 {
+    color: #333333;
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+
+.btn-group button {
+    background-color: #D10E61;
+    color: #fff;
+}
+
+/* bannner style end */
+
+
+/* partners banner start */
+
+.partner-banner h1 {
+    font-size: 8rem;
+    opacity: .1;
+}
+
+.partner-banner h4 {
+    font-size: 1.5rem;
+    padding-left: 15px;
+    font-weight: 300;
+    position: absolute;
+    top: 750px;
+}
+
+.p-card {
+    width: 30rem;
+    text-align: justify;
+    background:#fff;
+    position: absolute;
+    right: 100px;
+    top: 1250px;
+}
+
+.p-card .card-body h5 {
+   color:#333333;
+   font-weight: 300;
+}
+
+.p-card .card-body p {
+    color: #8F8F8F;
+    font-size: .8rem;
+    font-weight: 200;
+}
+
+.p-card button {
+    background-color: #D10E61;
+    color: #fff;
+}
+/* partners banner end */
+
+
+/* city section */
+
+.city-section {
+    margin-top: 15rem;
+}
+
+.city-section h1 {
+    font-size: 8rem;
+    opacity: .1;
+}
+
+.city-section h4 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+/* 
+.city .card .card-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.city .card button {
+    visibility: hidden;
+}
+
+.city .card:hover button {
+    visibility: visible;
+    background-color: #D10E61;
+    color: #fff;
+} */
+
+.city-list-bd .city-list li {
+    list-style-type: none;
+}
+
+.city-info .city-name {
+    position: absolute;
+    top: 228px;
+    color: #fff;
+    font-size: 1.5rem;
+    z-index: 1;
+    padding-left: 5px;
+    font-weight: 600;
+}
+.city-info .city-letter {
+    font-size: 8rem;
+    position: absolute;
+    top: 100px;
+    z-index:0;
+    color: #D10E61;
+    opacity: .6;
+    visibility: hidden;
+}
+
+.city-info .city-btn {
+    position: absolute;
+    top: 228px;
+    right: 0;
+    background-color: #D10E61;
+    visibility: hidden;
+}
+.city-info .city-btn button {
+    color: #fff;
+}
+
+.city-list-bd .city-list li:hover .city-letter {
+    visibility: visible;
+}
+
+.city-list-bd .city-list li:hover .city-btn button {
+    visibility: visible;
+}
+
+.city-list-bd .city-list .city .city-img {
+    transition: all .4s ease-in-out;
+}
+
+.city-list-bd .city-list li:hover .city-img {
+    transform: scale(1.1);
+}
+
+/* app section  */
