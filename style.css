@@ -168,6 +168,7 @@
 
 .city-list-bd .city-list li:hover .city-btn button {
     visibility: visible;
+    background-color: #D10E61;
 }
 
 .city-list-bd .city-list .city .city-img {
