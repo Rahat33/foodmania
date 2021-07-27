@@ -92,6 +92,7 @@
 .p-card button {
     background-color: #D10E61;
     color: #fff;
+    padding: 10px 50px;
 }
 /* partners banner end */
 
@@ -178,3 +179,120 @@
 }
 
 /* app section  */
+
+.app {
+    background-color: #D10E61;
+    color: #fff;
+}
+
+/* office section */
+
+.office-card {
+    width: 30rem;
+    text-align: justify;
+    background:#fff;
+    position: absolute;
+    left: 100px;
+    top: 600px;
+}
+
+.office-card .card-body h5 {
+   color:#333333;
+   font-weight: 300;
+}
+
+.office-card .card-body p {
+    color: #8F8F8F;
+    font-size: .8rem;
+    font-weight: 200;
+}
+
+.office-card button {
+    background-color: #D10E61;
+    color: #fff;
+    padding: 10px 50px
+}
+
+
+/* blog section */
+
+.blog h5 {
+    color: #333333;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.blog p {
+    color: #333333;
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.blog-more {
+    background-color: #fff;
+}
+
+.blog-more:hover .blog-hover{
+    background-color: #DDDDDD;
+    text-decoration: none;
+}
+
+
+/* footer section */
+
+.footer-top .icon {
+    float: right;
+    font-size: 1.5rem;
+    color: #ACB1B5
+}
+
+.footer-top .copyright p{
+    font-size: .7rem;
+}
+
+.footer-top .services a{
+    text-decoration: none;
+    color: #000;
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.footer-top .services a:hover {
+    color: #D10E61;
+}
+
+.footer-top .branch a {
+    text-decoration: none;
+}
+
+.footer-top .branch a {
+    color: #707070;
+    font-size: .8rem;
+    font-weight: 300S;
+}
+.footer-top .branch h5 a{
+    font-size: 1.1rem;
+    color: #333333;
+}
+
+.footer-top .branch a:hover {
+    color: #D10E61;
+}
+
+.footer-top .dishes li{
+    list-style-type: none;
+}
+
+.footer-top .dishes a {
+    text-decoration: none;
+    color: #D10E61;
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+.footer-bottom .country a {
+    text-decoration: none;
+    color: #707070;
+    font-size: .8rem;
+}
